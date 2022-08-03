@@ -7,9 +7,11 @@
         "id": "a3ef8987867a936c",
         "type": "leaf",
         "state": {
-          "type": "ipynb",
+          "type": "markdown",
           "state": {
-            "file": "04_常用库/01_数值计算/pandas/notebooks/pandas.Series.ipynb"
+            "file": "01_环境构建/conda/conda.命令参考/conda.activate.md",
+            "mode": "preview",
+            "source": true
           }
         }
       }
@@ -75,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "04_常用库/01_数值计算/pandas/notebooks/pandas.Series.ipynb",
+                "file": "01_环境构建/conda/conda.命令参考/conda.activate.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -92,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "04_常用库/01_数值计算/pandas/notebooks/pandas.Series.ipynb",
+                "file": "01_环境构建/conda/conda.命令参考/conda.activate.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -115,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "04_常用库/01_数值计算/pandas/notebooks/pandas.Series.ipynb"
+                "file": "01_环境构建/conda/conda.命令参考/conda.activate.md"
               }
             }
           },
@@ -140,7 +142,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "04_常用库/01_数值计算/pandas/notebooks/pandas.Series.ipynb",
+                "file": "01_环境构建/conda/conda.命令参考/conda.activate.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -173,13 +175,13 @@
       }
     ],
     "direction": "horizontal",
-    "width": 194.33334350585938
+    "width": 100
   },
   "active": "a3ef8987867a936c",
   "lastOpenFiles": [
+    "04_常用库/01_数值计算/pandas/notebooks/pandas.Series.ipynb",
     "04_常用库/01_数值计算/pandas/pandas.Series_TODO.md",
     "04_常用库/01_数值计算/pandas/pandas.环境构建.md",
-    "04_常用库/01_数值计算/pandas/notebooks/pandas.Series.ipynb",
     "numpy.md",
     "01_环境构建/conda/conda.命令参考/conda.create.md",
     "01_环境构建/conda/conda.命令参考/conda.remove.md",
