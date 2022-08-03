@@ -1,0 +1,14 @@
+{
+  "items": [
+    {
+      "type": "file",
+      "title": "functools.partial",
+      "path": "03_builtins/03_内置模块/functools/functools.partial.md"
+    },
+    {
+      "type": "file",
+      "title": "operator.methodcaller",
+      "path": "03_builtins/03_内置模块/operator/operator.methodcaller.md"
+    }
+  ]
+}
