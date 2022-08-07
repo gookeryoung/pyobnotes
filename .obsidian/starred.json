@@ -3,12 +3,12 @@
     {
       "type": "file",
       "title": "functools.partial",
-      "path": "03_builtins/03_内置模块/functools/functools.partial.md"
+      "path": "03_标准库/functools/functools.partial.md"
     },
     {
       "type": "file",
       "title": "operator.methodcaller",
-      "path": "03_builtins/03_内置模块/operator/operator.methodcaller.md"
+      "path": "03_标准库/operator/operator.methodcaller.md"
     }
   ]
 }
