@@ -59,6 +59,17 @@ def capwords(s: str):
 	return ' '.join([x.capitalize() for x in s.split(' ')])
 ```
 
+使用示例：
+
+```python
+# example_string_capwords
+
+import string
+
+print(string.capwords('hello, tomas young!'))
+# Hello, Tomas Young!
+```
+
 ## string.Template
 
 `string.Template` 主要用于实现文本的模板替代，默认使用 `$` 作为标识符（例如 `$var`）。当存在周围文本时，则需要使用 `${var}` 格式。

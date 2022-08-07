@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "01_环境构建/二进制分发.nuitka/nuitka.环境构建.md",
+            "file": "03_标准库/文本处理/string.md",
             "mode": "preview",
             "source": true
           }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "01_环境构建/二进制分发.nuitka/nuitka.环境构建.md",
+                "file": "03_标准库/文本处理/string.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "01_环境构建/二进制分发.nuitka/nuitka.环境构建.md",
+                "file": "03_标准库/文本处理/string.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01_环境构建/二进制分发.nuitka/nuitka.环境构建.md"
+                "file": "03_标准库/文本处理/string.md"
               }
             }
           },
@@ -142,7 +142,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "01_环境构建/二进制分发.nuitka/nuitka.环境构建.md",
+                "file": "03_标准库/文本处理/string.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -179,15 +179,15 @@
   },
   "active": "a3ef8987867a936c",
   "lastOpenFiles": [
+    "03_标准库/文本处理/string/nbs/string.ipynb",
+    "03_标准库/文本处理/string.md",
     "01_环境构建/包管理.pip/pip.设置国内源.md",
-    "01_环境构建/包管理.pip/pip.离线安装.md",
     "03_标准库/文本处理/string/string.functions.md",
+    "02_基本概念/python.装饰器.md",
+    "02_基本概念/python.内置函数/内置函数.md",
+    "01_环境构建/二进制分发.nuitka/nuitka.环境构建.md",
+    "01_环境构建/包管理.pip/pip.离线安装.md",
     "03_标准库/functools/functools.lru_cache.md",
-    "03_标准库/memoryview/memoryview.md",
-    "03_标准库/time/time.perf_counter_ns.md",
-    "03_标准库/time/time.perf_counter.md",
-    "03_标准库/threading/threading.md",
-    "03_标准库/文本处理/string/notebooks/string_funcs.ipynb",
-    "03_标准库/operator/operator.attrgetter.md"
+    "03_标准库/memoryview/memoryview.md"
   ]
 }
