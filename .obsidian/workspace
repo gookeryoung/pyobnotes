@@ -7,11 +7,9 @@
         "id": "16103ca868e8cc5e",
         "type": "leaf",
         "state": {
-          "type": "markdown",
+          "type": "pdf",
           "state": {
-            "file": "03_标准库/文本处理.string/string.md",
-            "mode": "source",
-            "source": true
+            "file": "04_常用库/数值计算.pandas/books/pandas_cheat_sheet.pdf"
           }
         }
       }
@@ -90,7 +88,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "03_标准库/文本处理.string/string.md",
+                "file": "04_常用库/数值计算.pandas/books/pandas_cheat_sheet.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -107,7 +105,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "03_标准库/文本处理.string/string.md",
+                "file": "04_常用库/数值计算.pandas/books/pandas_cheat_sheet.pdf",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -130,7 +128,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "03_标准库/文本处理.string/string.md"
+                "file": "04_常用库/数值计算.pandas/books/pandas_cheat_sheet.pdf"
               }
             }
           },
@@ -155,7 +153,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "03_标准库/文本处理.string/string.md",
+                "file": "04_常用库/数值计算.pandas/books/pandas_cheat_sheet.pdf",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -190,8 +188,9 @@
     "direction": "horizontal",
     "width": 100
   },
-  "active": "db57323f3368669f",
+  "active": "16103ca868e8cc5e",
   "lastOpenFiles": [
+    "03_标准库/文本处理.string/string.md",
     "03_标准库/序列化.pickle/pickle.md",
     "chardet.md",
     "class.__slots__.md",
@@ -200,7 +199,6 @@
     "02_基本概念/python.魔法函数/魔法函数.数值转换/__bool__.md",
     "02_基本概念/python.魔法函数/魔法函数.数值转换/__abs__.md",
     "02_基本概念/python.魔法函数/魔法函数.字符串&字符序列表示/__str__.md",
-    "02_基本概念/python.魔法函数/魔法函数.字符串&字符序列表示/__repr__.md",
-    "02_基本概念/python.魔法函数/魔法函数.字符串&字符序列表示/__format__.md"
+    "02_基本概念/python.魔法函数/魔法函数.字符串&字符序列表示/__repr__.md"
   ]
 }
