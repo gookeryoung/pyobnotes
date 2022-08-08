@@ -4,13 +4,13 @@
     "type": "split",
     "children": [
       {
-        "id": "a3ef8987867a936c",
+        "id": "16103ca868e8cc5e",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "03_标准库/文本处理/string.md",
-            "mode": "preview",
+            "file": "03_标准库/文本处理.string/string.md",
+            "mode": "source",
             "source": true
           }
         }
@@ -30,8 +30,12 @@
             "id": "5cf416efd20a3145",
             "type": "leaf",
             "state": {
-              "type": "file-explorer",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "03_标准库/文本处理.re/re.md",
+                "mode": "source",
+                "source": true
+              }
             }
           },
           {
@@ -56,12 +60,21 @@
               "type": "starred",
               "state": {}
             }
+          },
+          {
+            "id": "db57323f3368669f",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 255.6666660308838
+    "width": 337
   },
   "right": {
     "id": "af859b4803d477df",
@@ -77,7 +90,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "03_标准库/文本处理/string.md",
+                "file": "03_标准库/文本处理.string/string.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +107,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "03_标准库/文本处理/string.md",
+                "file": "03_标准库/文本处理.string/string.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -117,7 +130,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "03_标准库/文本处理/string.md"
+                "file": "03_标准库/文本处理.string/string.md"
               }
             }
           },
@@ -142,7 +155,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "03_标准库/文本处理/string.md",
+                "file": "03_标准库/文本处理.string/string.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -177,17 +190,17 @@
     "direction": "horizontal",
     "width": 100
   },
-  "active": "a3ef8987867a936c",
+  "active": "db57323f3368669f",
   "lastOpenFiles": [
-    "03_标准库/文本处理/string/nbs/string.ipynb",
-    "03_标准库/文本处理/string.md",
-    "01_环境构建/包管理.pip/pip.设置国内源.md",
-    "03_标准库/文本处理/string/string.functions.md",
-    "02_基本概念/python.装饰器.md",
-    "02_基本概念/python.内置函数/内置函数.md",
-    "01_环境构建/二进制分发.nuitka/nuitka.环境构建.md",
-    "01_环境构建/包管理.pip/pip.离线安装.md",
-    "03_标准库/functools/functools.lru_cache.md",
-    "03_标准库/memoryview/memoryview.md"
+    "03_标准库/序列化.pickle/pickle.md",
+    "chardet.md",
+    "class.__slots__.md",
+    "bisect.md",
+    "02_基本概念/python.魔法函数/魔法方法概述.md",
+    "02_基本概念/python.魔法函数/魔法函数.数值转换/__bool__.md",
+    "02_基本概念/python.魔法函数/魔法函数.数值转换/__abs__.md",
+    "02_基本概念/python.魔法函数/魔法函数.字符串&字符序列表示/__str__.md",
+    "02_基本概念/python.魔法函数/魔法函数.字符串&字符序列表示/__repr__.md",
+    "02_基本概念/python.魔法函数/魔法函数.字符串&字符序列表示/__format__.md"
   ]
 }
