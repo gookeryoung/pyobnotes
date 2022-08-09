@@ -1,3 +1,4 @@
+
 # Python Script For SpaceClaim, API Version = V19
 ClearAll()
 
@@ -162,6 +163,7 @@ def main():
     set_named_selection([base_comp.Content.Bodies[0], pin_comp.Content.Bodies[0], pin_comp.Content.Bodies[1]], 'NSV_BASE&PIN')
 
     set_named_selection([film_comp.Content.Bodies[0]], 'NSV_FILM')
-    set_named_selection([film_comp.Content.Bodies[0].Faces[0]], 'NSF_FILM_TOP')
+    set_named_selection([film_comp.Content.Bodies[0].Faces[8]], 'NSF_FILM_TOP')
+    set_named_selection([film_comp.Content.Bodies[0].Edges[0], film_comp.Content.Bodies[0].Edges[13]], 'NSL_FILM_BRIDGE')
 
 main()
