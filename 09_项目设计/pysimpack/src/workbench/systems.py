@@ -6,6 +6,7 @@ from collections import namedtuple
 from functools import partial
 
 GetANSYSTemplate = partial(GetTemplate, Solver='ANSYS')
+SystemInfo = namedtuple('SystemInfo', 'title position')
 
 COMPONENT_GEOMETRY = 'Geometry'
 COMPONENT_ENGINEERING_DATA = 'Engineering Data'
@@ -141,24 +142,3 @@ class SteadyStateThermalSystem(AbstractSimSystem, TransferSolutionTemplateMixin)
     TEMPLATE_NAME = 'Steady-State Thermal'
     TEMPLATE_COMPONENT = TEMPLATE_STEADY_STATE
 
-
-def main():
-    SystemInfo = namedtuple('SystemInfo', 'title position')
-
-    systems = {
-        'GEO': SystemInfo(title=u'三维模型', position='Right'),
-        'ELE1': SystemInfo(title=u'电阻分析（电阻、功率计算-1A）', position='Right'),
-        'ELE5': SystemInfo(title=u'电阻分析（电阻、功率计算-5A）', position='Below'),
-        'STD': SystemInfo(title=u'稳态热分析（安全性计算）', position='Right'),
-        'TRA': SystemInfo(title=u'瞬态热分析（发火性能计算）', position='Right')
-    }
-
-    geom = GeometrySystem('GEO', **systems['GEO']._asdict())
-    elec1 = ElectricShareGeometryMaterialSystem('ELE1', relative=geom.system, **systems['ELE1']._asdict())
-    steady = SteadyStateThermalSystem('STD', relative=elec1.system, **systems['STD']._asdict())
-    elec5 = ElectricShareModelSystem('ELE5', relative=elec1.system, **systems['ELE5']._asdict())
-    trans = TransientThermalSystem('TRA', relative=elec5.system, **systems['TRA']._asdict())
-
-
-if __name__ == '__main__':
-    main()

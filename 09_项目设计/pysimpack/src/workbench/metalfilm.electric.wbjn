@@ -1,0 +1,18 @@
+# -*- encoding: utf-8 -*-
+
+import os
+
+with open(os.path.join(os.path.dirname(__file__), 'systems.py'), 'r') as f:
+    exec('\n'.join(f.readlines()))
+
+def main():
+    systems = {
+        'GEO': SystemInfo(title=u'三维模型', position='Right'),
+        'ELE1': SystemInfo(title=u'电阻分析（电阻、功率计算-1A）', position='Right'),
+    }
+
+    geom = GeometrySystem('GEO', **systems['GEO']._asdict())
+    elec1 = ElectricShareGeometryMaterialSystem('ELE1', relative=geom.system, **systems['ELE1']._asdict())
+
+if __name__ == '__main__':
+    main()
