@@ -4,13 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "16103ca868e8cc5e",
+        "id": "c20e22ba0ad9aeef",
         "type": "leaf",
         "state": {
-          "type": "pdf",
-          "state": {
-            "file": "04_常用库/数值计算.pandas/books/pandas_cheat_sheet.pdf"
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -88,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "04_常用库/数值计算.pandas/books/pandas_cheat_sheet.pdf",
+                "file": "03_标准库/文本处理.re/re.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "04_常用库/数值计算.pandas/books/pandas_cheat_sheet.pdf",
+                "file": "03_标准库/文本处理.re/re.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -128,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "04_常用库/数值计算.pandas/books/pandas_cheat_sheet.pdf"
+                "file": "03_标准库/文本处理.re/re.md"
               }
             }
           },
@@ -153,7 +151,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "04_常用库/数值计算.pandas/books/pandas_cheat_sheet.pdf",
+                "file": "03_标准库/文本处理.re/re.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -188,17 +186,17 @@
     "direction": "horizontal",
     "width": 100
   },
-  "active": "16103ca868e8cc5e",
+  "active": "c20e22ba0ad9aeef",
   "lastOpenFiles": [
-    "03_标准库/文本处理.string/string.md",
-    "03_标准库/序列化.pickle/pickle.md",
-    "chardet.md",
-    "class.__slots__.md",
-    "bisect.md",
-    "02_基本概念/python.魔法函数/魔法方法概述.md",
-    "02_基本概念/python.魔法函数/魔法函数.数值转换/__bool__.md",
-    "02_基本概念/python.魔法函数/魔法函数.数值转换/__abs__.md",
-    "02_基本概念/python.魔法函数/魔法函数.字符串&字符序列表示/__str__.md",
-    "02_基本概念/python.魔法函数/魔法函数.字符串&字符序列表示/__repr__.md"
+    "05_拓展学习/操作系统/Ubuntu切换国内源.md",
+    "03_标准库/文本处理.re/re.md",
+    "09_项目设计/pysimpack/doc/概念设计/Drawing 2022-08-09 19.47.07.excalidraw.md",
+    "09_项目设计/pysimpack/doc/概念设计/Pasted Image 20220809194756_019.png",
+    "09_项目设计/pysimpack/doc/概念设计/Pasted Image 20220809194717_349.png",
+    "09_项目设计/pysimpack/doc/概念设计.md",
+    "09_项目设计/pysimpack/src/未命名.md",
+    "09_项目设计/pysimpack/README.md",
+    "05_拓展学习/项目管理/项目管理.md",
+    "04_常用库/数值计算.pandas/books/pandas_cheat_sheet.pdf"
   ]
 }
