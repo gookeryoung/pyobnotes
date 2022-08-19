@@ -10,7 +10,7 @@
           "type": "markdown",
           "state": {
             "file": "03.标准库/数据持久化.shelve/shelve.md",
-            "mode": "source",
+            "mode": "preview",
             "source": true
           }
         }
@@ -70,7 +70,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 337
+    "width": 337,
+    "collapsed": true
   },
   "right": {
     "id": "af859b4803d477df",
@@ -186,17 +187,17 @@
     "direction": "horizontal",
     "width": 100
   },
-  "active": "db57323f3368669f",
+  "active": "0f2e5cb983132e12",
   "lastOpenFiles": [
+    "dbm.md",
+    "03.标准库/数据持久化.shelve/shelve.md",
+    "04.常用库/数值计算.numpy/notebook/02-numpy数组.ipynb",
+    "04.常用库/数值计算.numpy/notebook/03-numpy数据类型.ipynb",
+    "03.标准库/数据持久化.shelve/notebook/shelve.ipynb",
     "03_标准库/数据持久化.pickle/pickle.md",
     "03_标准库/数据持久化.shelve/shelve.md",
     "03_标准库/文本处理.re/re.md",
     "04_常用库/性能优化.mypy/Books/mypyc-readthedocs-io-en-0.950.pdf",
-    "04_常用库/性能优化.mypy/01_mypy环境.md",
-    "02_基本概念/python.内置类型/dict字典/dict键值查询处理.md",
-    "09_项目设计/pysmallgames/贪吃蛇.snake/Drawing 2022-08-12 17.30.54.excalidraw.md",
-    "09_项目设计/pysmallgames/贪吃蛇.snake/未命名.md",
-    "01_环境构建/二进制分发.nuitka/nuitka.环境构建.md",
-    "01_环境构建/包管理.conda/conda.命令参考/conda.create.md"
+    "04_常用库/性能优化.mypy/01_mypy环境.md"
   ]
 }
