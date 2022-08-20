@@ -4,13 +4,13 @@
     "type": "split",
     "children": [
       {
-        "id": "0f2e5cb983132e12",
+        "id": "82f24ce0c1f72544",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
             "file": "03.标准库/数据持久化.shelve/shelve.md",
-            "mode": "preview",
+            "mode": "source",
             "source": true
           }
         }
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "dbm",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -187,17 +187,17 @@
     "direction": "horizontal",
     "width": 100
   },
-  "active": "0f2e5cb983132e12",
+  "active": "db57323f3368669f",
   "lastOpenFiles": [
-    "dbm.md",
+    "03.标准库/数据持久化.dbm/dbm.md",
     "03.标准库/数据持久化.shelve/shelve.md",
-    "04.常用库/数值计算.numpy/notebook/02-numpy数组.ipynb",
-    "04.常用库/数值计算.numpy/notebook/03-numpy数据类型.ipynb",
-    "03.标准库/数据持久化.shelve/notebook/shelve.ipynb",
-    "03_标准库/数据持久化.pickle/pickle.md",
-    "03_标准库/数据持久化.shelve/shelve.md",
-    "03_标准库/文本处理.re/re.md",
-    "04_常用库/性能优化.mypy/Books/mypyc-readthedocs-io-en-0.950.pdf",
-    "04_常用库/性能优化.mypy/01_mypy环境.md"
+    "03.标准库/数据持久化.pickle/pickle.md",
+    "dbm.md",
+    "03.标准库/threading/threading.md",
+    "03.标准库/typing/typing.Iterable.md",
+    "03.标准库/数据持久化.dbm/notebook/dbm.数据存取.ipynb",
+    "05.拓展学习/项目管理/项目管理.入口点创建.md",
+    "05.拓展学习/项目管理/项目管理.代码命名.md",
+    "05.拓展学习/项目管理/项目管理.大小写规则.md"
   ]
 }
