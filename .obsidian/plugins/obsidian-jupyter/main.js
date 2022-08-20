@@ -3050,15 +3050,15 @@ const DEFAULT_SETTINGS = {
 class JupterPreview extends obsidian.FileView {
     constructor(leaf, interpreter) {
         super(leaf);
-        // Show a placeholder before we've converted the notebook.
-        this.contentEl.innerHTML = 'Converting notebook...';
+        // Show a placeholder before we've converted the codes.
+        this.contentEl.innerHTML = 'Converting codes...';
         this.interpreter = interpreter;
     }
     onLoadFile(file) {
         // Get the base path of the vault.
         let adapter = file.vault.adapter;
         if (!(adapter instanceof obsidian.FileSystemAdapter)) {
-            this.contentEl.innerHTML = 'Could not determine notebook path.';
+            this.contentEl.innerHTML = 'Could not determine codes path.';
             return null;
         }
         // Convert the file by writing it to a temporary location. Piping unfortunately leads to
@@ -3071,7 +3071,7 @@ class JupterPreview extends obsidian.FileView {
         // Process the output and delete the temporary file.
         child.on('close', (code) => {
             if (code) {
-                this.contentEl.innerHTML = 'Failed to convert notebook to HTML.';
+                this.contentEl.innerHTML = 'Failed to convert codes to HTML.';
             }
             else {
                 setInnerHTML(this.contentEl, require$$0$1.readFileSync(htmlPath).toString());

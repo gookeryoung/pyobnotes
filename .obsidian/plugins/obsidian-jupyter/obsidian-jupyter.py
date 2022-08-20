@@ -19,7 +19,7 @@ logging.basicConfig(level='INFO')
 logger = logging.getLogger('obsidian-jupyter')
 logger.info('started server for document %s', args.document_id)
 
-# Create a notebook and kernel.
+# Create a codes and kernel.
 cell = nbformat.v4.new_code_cell()
 nb = nbformat.v4.new_notebook(cells=[cell])
 km = KernelManager()
