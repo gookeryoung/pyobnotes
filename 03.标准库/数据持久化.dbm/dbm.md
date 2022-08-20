@@ -3,7 +3,7 @@ aliases: dbm,
 tags: dbm
 desc: 
 date created: 星期六, 八月 20日 2022, 10:11:56 上午
-date modified: 星期六, 八月 20日 2022, 11:34:47 中午
+date modified: 星期六, 八月 20日 2022, 11:47:00 中午
 title: dbm
 ---
 
@@ -22,13 +22,19 @@ python 提供了数种不同的 DBM 类型数据库，包括 `dbm.gnu`、`dbm.nd
 ```python
 import dbm
 
-db = dbm.open(file, 'w', 0o666)  # 打开文件
-db['key'] = data  # 存储数据，会覆盖当前 key 的数据
+db = dbm.open('data_file.db', 'c', 0o666)  # 打开文件
+# db: <dbm.dumb._Database object at 0x09DA23D0>
+
+db['key'] = 'test_string'  # 存储数据，会覆盖当前 key 的数据
 data = db['key']  # 读取数据，如果找不到 key 则返回 KeyError
+# data: {bytes: 11} b'test_string'
 
 flag = 'key' in db  # 查询 key 是否在 db 中
+# flag: {bool} True
 lis = db.keys()  # 查询所有存在的键
+# lis: {list: 1} [b'key']
 vals = db.values()  # 查询所有值
+# vals: ValuesView(<dbm.dumb._Database object at 0x09DA23D0>)
 ```
 
 ## dbm.open
