@@ -1,12 +1,12 @@
 ---
-aliases: Python.threading
+aliases: threading
 tags: threading
 date created: 星期日, 六月 26日 2022, 12:21:24 中午
-date modified: 星期三, 九月 7日 2022, 12:20:04 中午
-title: threading.基本概念
+date modified: 星期三, 九月 7日 2022, 12:44:02 下午
+title: threading
 ---
 
-# threading.基本概念
+# threading
 
 ## 概述
 
