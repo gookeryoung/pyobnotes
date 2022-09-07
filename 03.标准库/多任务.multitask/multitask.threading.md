@@ -91,11 +91,11 @@ Time used: 2.01 seconds.
 
 这就是常见的串行程序的思路，CPU 在执行第一个函数中，等待 1 秒的时间里什么也不做，在执行完第一个函数后接着执行第二个函数。其执行过程如下：
 
-![[threading_example_single]]
+![[ex_multitask_threading_single]]
 
 很明显，这样让 CPU 干等着啥也不做并不是一个很好的选择，而**多线程**就是解决这一问题的方法之一，**让 CPU 在等待某个任务完成时去执行更多的操作**，将整个过程简化为下图流程，这样就能充分节省时间：
 
-![[threading_example_multi]]
+![[ex_multitask_threading_multi]]
 
 ## threading 基本使用
 
