@@ -21,10 +21,10 @@ for i in range(3):
     future = asyncio.run_coroutine_threadsafe(thread_example(f'test_{str(i)}'), my_loop)
     print(future.result())
 
-print('主线程未受影响')
+print('*****主线程未受影响*****')
 
 for i in range(4, 7):
     future = asyncio.run_coroutine_threadsafe(thread_example(f'test_{str(i)}'), my_loop)
     print(future.result())
 
-print('主线程继续')
+print('*****主线程继续*****')
