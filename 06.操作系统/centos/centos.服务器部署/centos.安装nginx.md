@@ -3,7 +3,7 @@ aliases: nginx安装
 tags: 
 title: centos.安装 nginx
 date created: 星期二, 九月 13日 2022, 9:28:37 晚上
-date modified: 星期二, 九月 13日 2022, 9:37:47 晚上
+date modified: 星期二, 九月 13日 2022, 11:10:12 晚上
 ---
 
 # centos.安装 nginx
@@ -14,14 +14,25 @@ date modified: 星期二, 九月 13日 2022, 9:37:47 晚上
 yum install -y gcc pcre-devel zlib-devel openssl-devel
 ```
 
-## 安装 nginx
+## 下载解压 nginx
 
 ```bash
 wget http://nginx.org/download/nginx-1.23.1.tar.gz
 tar -zxvf nginx-1.23.1.tar.gz
 cd nginx-1.23.1
-./configure
+```
+
+## 安装 nginx
+
+```bash
+./configure --with-stream --with-http_ssl_module
 make && make install
+```
+
+## 复制配置文件
+
+```bash
+cp /usr/local/nginx/conf/nginx.conf /usr/local/nginx/conf/nginx.conf.bak
 ```
 
 ## nginx 命令

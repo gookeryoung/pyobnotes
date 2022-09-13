@@ -74,7 +74,7 @@ virtualenvwrapper.user_scripts creating /home/<username>/.virtualenvs/initialize
 通过 `mkvirtualenv --python=[python3 path] [venv name]` 即可创建虚拟环境，例如：
 
 ```bash
-makevirtualenv --python=python3 gamedev
+mkvirtualenv --python=python3.8 gamedev
 ```
 
 显示以下信息即表示创建完成:
