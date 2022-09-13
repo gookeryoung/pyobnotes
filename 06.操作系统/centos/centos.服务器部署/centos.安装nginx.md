@@ -3,21 +3,25 @@ aliases: nginx安装
 tags: 
 title: centos.安装 nginx
 date created: 星期二, 九月 13日 2022, 9:28:37 晚上
-date modified: 星期二, 九月 13日 2022, 9:33:45 晚上
+date modified: 星期二, 九月 13日 2022, 9:37:47 晚上
 ---
 
 # centos.安装 nginx
 
-## 安装 epel 仓库
+## 安装依赖
 
 ```bash
-yum install -y epel-release
+yum install -y gcc pcre-devel zlib-devel openssl-devel
 ```
 
 ## 安装 nginx
 
 ```bash
-yum install -y nginx
+wget http://nginx.org/download/nginx-1.23.1.tar.gz
+tar -zxvf nginx-1.23.1.tar.gz
+cd nginx-1.23.1
+./configure
+make && make install
 ```
 
 ## nginx 命令
