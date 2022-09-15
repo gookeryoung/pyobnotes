@@ -28,7 +28,6 @@ windows(`Powershell`):
 
 ```bash
 (Invoke-WebRequest -Uri https://install.python-poetry.org -UseBasicParsing).Content | py -
-
 ```
 
 默认情况下 `poetry` 被安装到以下目录：
@@ -41,7 +40,6 @@ windows(`Powershell`):
 
 ```bash
 curl -sSL https://install.python-poetry.org | python3 - --git https://github.com/python-poetry/poetry.git@master
-
 ```
 
 ### 添加到系统环境
