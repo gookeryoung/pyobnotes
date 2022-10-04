@@ -1,9 +1,9 @@
 {
-  "baseFontSize": 18,
+  "baseFontSize": 21,
   "theme": "moonstone",
   "cssTheme": "Blue Topaz",
   "textFontFamily": "",
   "monospaceFontFamily": "",
-  "interfaceFontFamily": "Consolas,Impact,Comic Sans MS",
+  "interfaceFontFamily": "Consolas,DejaVu Sans Mono,Noto Sans Ol Chiki",
   "translucency": false
 }
