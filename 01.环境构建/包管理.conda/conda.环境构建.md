@@ -1,9 +1,9 @@
 ---
-aliases: conda.环境构建,
+aliases: conda.环境构建, anaconda
 tags: 
 desc: 
-date created: Friday, June 24th 2022, 3:16:59 pm
-date modified: Friday, July 22nd 2022, 10:16:39 pm
+date created: 星期五, 十月 7日 2022, 4:23:11 下午
+date modified: 星期日, 十月 9日 2022, 9:19:03 晚上
 title: conda.环境构建
 ---
 
@@ -15,7 +15,7 @@ Anaconda 是一个用于科学计算的 Python 发行版，支持 Linux, Mac, Wi
 
 Anaconda 安装包可以到 [清华大学开源软件镜像站/anaconda](https://mirrors.tuna.tsinghua.edu.cn/anaconda/archive/) 下载。
 
-`windows` 下，推荐使用的版本：
+`windows` 下，推荐使用的 Anaconda 版本：
 
 - Python3.8 win32(Win7 最高支持版本):[Anaconda3-2021.05-Windows-x86.exe](https://mirrors.tuna.tsinghua.edu.cn/anaconda/archive/Anaconda3-2021.05-Windows-x86.exe)
 - Python3.8 win64(Win7 最高支持版本):[Anaconda3-2021.05-Windows-x86_64.exe](https://mirrors.tuna.tsinghua.edu.cn/anaconda/archive/Anaconda3-2021.05-Windows-x86_64.exe)

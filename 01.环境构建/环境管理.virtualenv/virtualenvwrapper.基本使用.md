@@ -3,7 +3,7 @@ aliases:
 tags: 
 title: virtualenvwrapper.基本使用
 date created: 星期六, 九月 3日 2022, 9:53:55 上午
-date modified: 星期六, 九月 3日 2022, 10:22:30 上午
+date modified: 星期日, 十月 9日 2022, 8:32:09 晚上
 ---
 
 # virtualenvwrapper.基本使用
