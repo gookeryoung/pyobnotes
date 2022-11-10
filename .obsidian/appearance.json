@@ -1,9 +1,10 @@
 {
   "baseFontSize": 16,
-  "theme": "moonstone",
-  "cssTheme": "Blue Topaz",
+  "theme": "system",
+  "cssTheme": "Atom",
   "textFontFamily": "",
   "monospaceFontFamily": "",
-  "interfaceFontFamily": "Consolas,DejaVu Sans Mono,Noto Sans Ol Chiki",
-  "translucency": false
+  "interfaceFontFamily": "Consolas,Cascadia Mono",
+  "translucency": false,
+  "accentColor": ""
 }
