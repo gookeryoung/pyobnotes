@@ -1,13 +1,13 @@
 ---
-aliases: tuple, 元组
+aliases:  元组
 tags: tuple, 元组
 date created: 星期五, 十月 7日 2022, 9:56:06 晚上
-date modified: 星期二, 十一月 15日 2022, 10:26:28 晚上
-title: Tuple 元组
+date modified: 星期二, 十一月 15日 2022, 10:29:48 晚上
+title: Tuple
 desc: 元组（tuple）是 Python 中另一个重要的序列结构，和列表类似，元组也是由一系列按特定顺序排序的元素组成。
 ---
 
-# Tuple 元组
+# Tuple
 
 元组（tuple）是 Python 中另一个重要的序列结构，和列表类似，元组也是由一系列按特定顺序排序的元素组成。
 
