@@ -3,7 +3,7 @@ aliases:
 tags: 
 title: postgresql 服务
 date created: 星期六, 十月 29日 2022, 3:36:49 下午
-date modified: 星期六, 十月 29日 2022, 8:24:53 晚上
+date modified: 星期日, 十一月 27日 2022, 9:33:54 晚上
 ---
 
 # postgresql 服务
@@ -65,4 +65,29 @@ postgres=# grant all privileges on database wikidb to wiki;
 
 # 退出
 postgres=# \q
+```
+
+## 远程访问设置
+
+修改 `postgresql.conf` 文件:
+
+```bash
+vim /etc/postgresql/14/main/postgresql.conf
+
+# 将 #listen_address = 'localhost'修改为 #listen_address = '*'
+```
+
+修改 `pg_hba.conf` 文件:
+
+```bash
+vim /etc/postgresql/14/main/pg_hba.conf
+
+# 末尾添加内容, 注意一定不要写md5,否则连接密码有问题
+host all all 0.0.0.0/0 trust
+```
+
+重启服务:
+
+```bash
+/etc/init.d/postgresql restart
 ```
