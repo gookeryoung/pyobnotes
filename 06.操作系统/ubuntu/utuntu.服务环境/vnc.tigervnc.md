@@ -1,12 +1,12 @@
 ---
 aliases: 
 tags: 
-title: vnc 服务
+title: vnc.tigervnc
 date created: 星期三, 九月 14日 2022, 2:09:39 下午
-date modified: 星期三, 九月 14日 2022, 3:10:46 下午
+date modified: 星期一, 十一月 28日 2022, 7:54:45 晚上
 ---
 
-# vnc 服务
+# vnc.tigervnc
 
 ## 图形界面安装
 

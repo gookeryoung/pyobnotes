@@ -1,12 +1,12 @@
 ---
 aliases: ssh安装使用
 tags: 
-title: ssh 服务
+title: ssh.openssh
 date created: 星期三, 九月 14日 2022, 1:25:10 下午
-date modified: 星期三, 九月 14日 2022, 2:05:37 下午
+date modified: 星期一, 十一月 28日 2022, 7:54:20 晚上
 ---
 
-# ssh 服务
+# ssh.openssh
 
 ## 安装 ssh 服务
 
