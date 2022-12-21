@@ -3,7 +3,7 @@ aliases:
 tags: 
 title: django.model.字段选项
 date created: 星期三, 十二月 21日 2022, 8:57:45 晚上
-date modified: 星期三, 十二月 21日 2022, 9:29:20 晚上
+date modified: 星期三, 十二月 21日 2022, 9:38:48 晚上
 ---
 
 # django.model.字段选项
@@ -182,3 +182,17 @@ contact_info = JSONField("ContactInfo", default=contact_default)
 这是在数据库级别和模型验证中强制执行的。如果你试图保存一个在 unique 字段中存在重复值的模型，模型的 `save()` 方法将引发 `django.db.IntegrityError`。
 
 除了 `ManyToManyField` 和 `OneToOneField` 之外，该选项对所有字段类型有效。
+
+## 字段备注名
+
+除了 `ForeignKey`， `ManyToManyField` 和 `OneToOneField`，任何字段类型都接收一个可选的位置参数 `verbose_name`，如果未指定该参数值， `Django` 会自动使用字段的属性名作为该参数值，并且把下划线转换为空格。
+
+`ForeignKey`, `ManyToManyField` 以及 `OneToOneField` 接收的第一个参数为模型的类名，后面可以添加一个 `verbose_name` 参数：
+
+```python
+poll = models.ForeignKey(
+    Poll,
+    on_delete=models.CASCADE,
+    verbose_name="the related poll",
+)
+```
