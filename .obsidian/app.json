@@ -2,7 +2,7 @@
   "legacyEditor": false,
   "livePreview": false,
   "lineWrap": true,
-  "useTab": true,
+  "useTab": false,
   "strictLineBreaks": false,
   "showFrontmatter": true,
   "showLineNumber": true,
