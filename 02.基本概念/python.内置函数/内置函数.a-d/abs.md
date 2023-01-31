@@ -1,8 +1,8 @@
 ---
-aliases: [内置函数/abs(x)]
-tags: [abs]
+aliases: 
+tags:
 date created: 星期五, 十月 7日 2022, 9:56:06 晚上
-date modified: 星期二, 一月 31日 2023, 8:57:09 晚上
+date modified: 星期二, 一月 31日 2023, 9:30:46 晚上
 title: abs(x)
 ---
 
