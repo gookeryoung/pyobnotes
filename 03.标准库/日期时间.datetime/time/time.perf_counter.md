@@ -2,7 +2,7 @@
 aliases: time.perf_counter
 tags: time.perf_counter
 date created: 星期四, 六月 23日 2022, 9:49:29 晚上
-date modified: 星期三, 九月 7日 2022, 1:19:34 下午
+date modified: 星期日, 二月 26日 2023, 10:26:25 晚上
 title: perf_counter
 ---
 
@@ -19,22 +19,25 @@ from random import random
 from time import perf_counter as pc
 from time import perf_counter_ns as pcn
 
+
 def operate_float_array(size: int) -> None:
-	floats = array('f', (random() for i in range(size + 1)))
+	floats = array('f', (random() for _ in range(size + 1)))
 	with open('floats_array.bin', 'wb') as f:
-		f.write(floats)
+		floats.tofile(f)
 	floats_read = array('f')
 	with open('floats_array.bin', 'rb') as f:
 		floats_read.fromfile(f, size + 1)
 	print(floats_read[-5:])
 
+
+sz: int = 10000000
 # 使用 perf_counter 计算用时，单位：秒
 t0 = pc()
-operate_float_array(10000000)
+operate_float_array(sz)
 print(f'Time used:\t{(pc() - t0):.3f}s')
 
 # 使用 perf_counter_ns 计算用时，单位：纳秒
 t1 = pcn()
-operate_float_array(10000000)
+operate_float_array(sz)
 print(f'Time used:\t{(pcn() - t1):.3f}ns')
 ```
