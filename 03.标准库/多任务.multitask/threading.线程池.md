@@ -1,12 +1,12 @@
 ---
 aliases: threading.线程池
 tags: 
-title: 01.threading.线程池
+title: threading.线程池
 date created: 星期二, 十月 4日 2022, 10:07:18 晚上
-date modified: 星期二, 十月 4日 2022, 10:53:40 晚上
+date modified: 星期四, 三月 2日 2023, 7:39:11 晚上
 ---
 
-# 01.threading.线程池
+# threading.线程池
 
 ## 概述
 
