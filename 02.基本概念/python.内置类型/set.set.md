@@ -3,13 +3,13 @@ aliases: set集合,
 tags: 
 desc:  
 date created: 星期五, 十月 7日 2022, 9:56:08 晚上
-date modified: 星期四, 三月 2日 2023, 8:43:49 晚上
-title: sequence.set
+date modified: 星期四, 三月 2日 2023, 9:03:00 晚上
+title: set.set
 ---
 
-# sequence.set
+# set.set
 
-通过 `iterable` 序列创建一个集合, 其元素是**不重复**且 `hashable`的。
+通过 `iterable` 序列创建一个集合, 其元素是**不重复**且 `hashable` 的。
 
 通常用于元素包含测试。
 
