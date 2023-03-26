@@ -3,7 +3,7 @@ aliases:
 tags: 
 title: poetry.环境安装
 date created: 星期三, 九月 14日 2022, 12:43:11 下午
-date modified: 星期三, 九月 14日 2022, 1:14:43 下午
+date modified: 星期日, 三月 26日 2023, 9:03:40 上午
 ---
 
 # poetry.环境安装
@@ -46,7 +46,7 @@ curl -sSL https://install.python-poetry.org | python3 - --git https://github.com
 
 将以下目录添加到环境变量即可 (对于自定义 HOME 路径则为 `$POETRY_HOME/bin`)：
 
-- linux / unix: `$HOME/.local/bin`
+- linux / unix: `$HOME/.local/bin`, 参考 [[virtualenvwrapper.基本使用#配置环境变量 [linux]]]
 - windows: `%APPDATA%\Python\Scripts`
 
 ### 测试 poetry 安装

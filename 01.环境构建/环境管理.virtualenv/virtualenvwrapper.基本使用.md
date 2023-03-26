@@ -3,7 +3,7 @@ aliases:
 tags: 
 title: virtualenvwrapper.基本使用
 date created: 星期六, 九月 3日 2022, 9:53:55 上午
-date modified: 星期日, 十月 9日 2022, 8:32:09 晚上
+date modified: 星期日, 三月 26日 2023, 9:02:38 上午
 ---
 
 # virtualenvwrapper.基本使用
@@ -40,6 +40,8 @@ which python3
 
 - `/home/<username>/.local/bin/virtualenvwrapper.sh`
 - `/usr/bin/python3`
+
+## 配置环境变量 [linux]
 
 然后在 `.bashrc` 文件中增加对应环境变量：
 
