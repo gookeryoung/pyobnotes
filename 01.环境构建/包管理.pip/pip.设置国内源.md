@@ -2,7 +2,7 @@
 aliases: pip.设置国内源, pip国内源
 tags: pip/设置国内源
 date created: 星期四, 六月 23日 2022, 9:49:28 晚上
-date modified: 星期一, 十二月 5日 2022, 11:36:31 晚上
+date modified: 星期日, 三月 26日 2023, 9:49:04 上午
 title: pip.设置国内源
 ---
 
@@ -22,6 +22,13 @@ title: pip.设置国内源
 index-url = http://mirrors.aliyun.com/pypi/simple/
 [install]
 trusted-host = mirrors.aliyun.com
+```
+
+```bash
+[global]
+index-url = https://pypi.tuna.tsinghua.edu.cn/simple/
+[install]
+trusted-host = tuna.tsinghua.edu.cn
 ```
 
 ## 国内源地址
