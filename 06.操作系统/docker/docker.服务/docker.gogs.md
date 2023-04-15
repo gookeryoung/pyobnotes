@@ -3,7 +3,7 @@ aliases:
 tags: 
 title: docker.gogs
 date created: 星期四, 三月 30日 2023, 7:15:41 晚上
-date modified: 星期四, 三月 30日 2023, 7:18:14 晚上
+date modified: 星期六, 四月 15日 2023, 7:48:01 晚上
 ---
 
 # docker.gogs
@@ -22,8 +22,8 @@ services:
     image: gogs/gogs
     container_name: gogs
     ports:
-      - '6022:22'      # ssh 端口
-      - '6023:3000'    # Web 访问端口
+      - '1022:22'      # ssh 端口
+      - '3000:3000'    # Web 访问端口
     volumes:
       - ./gogs-data:/data   # 数据存储 
 ```
@@ -32,6 +32,6 @@ services:
 
 拷贝上述文件到服务器上
 
-然后执行 docker-compose up -d，会自动拉取镜像，并启动容器。
+然后执行 `sudo docker-compose up -d`，会自动拉取镜像，并启动容器。
 
 用浏览器打开 http://ip:6023 进行 Gogs 的安装。记得修改端口和域名，然后点击安装就可以了。
