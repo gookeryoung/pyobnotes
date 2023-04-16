@@ -3,7 +3,7 @@ aliases:
 tags: 
 title: poetry.环境安装
 date created: 星期三, 九月 14日 2022, 12:43:11 下午
-date modified: 星期日, 三月 26日 2023, 9:03:40 上午
+date modified: 星期日, 四月 16日 2023, 11:31:34 中午
 ---
 
 # poetry.环境安装
@@ -27,7 +27,7 @@ curl -sSL https://install.python-poetry.org | python3 -
 windows(`Powershell`):
 
 ```bash
-(Invoke-WebRequest -Uri https://install.python-poetry.org -UseBasicParsing).Content | py -
+(Invoke-WebRequest -Uri https://install.python-poetry.org -UseBasicParsing).Content | python -
 ```
 
 默认情况下 `poetry` 被安装到以下目录：

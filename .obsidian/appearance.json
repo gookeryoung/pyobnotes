@@ -5,6 +5,5 @@
   "textFontFamily": "",
   "monospaceFontFamily": "",
   "interfaceFontFamily": "Consolas,Cascadia Mono",
-  "translucency": false,
-  "accentColor": ""
+  "translucency": false
 }
